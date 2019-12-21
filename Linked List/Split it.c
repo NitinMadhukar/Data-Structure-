@@ -79,7 +79,7 @@
 }
  node* append(node* p,node *q)
  {
-     node *i,*j;
+     node *i;
      for(i=p;i->next!=NULL;i=i->next);
      i->next=q;
      return p;
